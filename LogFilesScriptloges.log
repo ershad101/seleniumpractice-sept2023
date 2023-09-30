@@ -1,0 +1,6 @@
+2023-09-30 10:56:48 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-09-30 10:56:52 INFO  LogerClass:101 - login with valid crendential
+2023-09-30 10:56:53 INFO  LogerClass:107 - Click on login button 
+2023-09-30 10:56:53 INFO  LogerClass:30 - login with valid credential 
+2023-09-30 10:56:53 INFO  LogerClass:40 - valdiate homepage title
+2023-09-30 10:56:54 INFO  LogerClass:74 - ********* we are ready to closed the Browser ***********

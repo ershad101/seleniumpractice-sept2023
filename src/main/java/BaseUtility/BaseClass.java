@@ -14,9 +14,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import Loggings.LogerClass;
+import POMfile.loginPage;
 import ReadProperties.Readpro;
 
 public class BaseClass {
@@ -27,7 +29,8 @@ public class BaseClass {
 
 	public Logger log;
 
-	
+	public loginPage login;
+
 	@BeforeTest
 	public void lounching() throws IOException {
 
@@ -37,7 +40,8 @@ public class BaseClass {
 
 		if (chromeBrowser.equalsIgnoreCase(pro.getBrowser())) {
 
-			log = obj.logobject();
+			log = LogerClass.getlogger();
+			
 
 			log.info("*******  we are ready to lounch the Chrome browser  ******");
 
@@ -57,49 +61,51 @@ public class BaseClass {
 			System.err.println("-------------Pleaser provide the Browser name --------------");
 
 		}
+		
+		driver.get(pro.getUrl());
 
 	}
 
-	
-	
 	@AfterTest
 	public void tearDown() throws InterruptedException {
-		
-		
+
 		Thread.sleep(500);
-		
+
 		log.info("********* we are ready to closed the Browser ***********");
-		
-		
+
 		driver.close();
-		
-		
 
 	}
-	
-	
-	public static String captureScreenShot(WebDriver driver,String filename) throws IOException {
-		
-		String screenshotName=new SimpleDateFormat("ddmmyyyhhmmss").format(new Date());
-		
-		TakesScreenshot t=(TakesScreenshot)driver;
-		
-		
-		File src=t.getScreenshotAs(OutputType.FILE);
-		
-		String destiPath="C:\\Users\\webca\\eclipse-workspace\\seleniumpractice-sept2023\\SceenShot\\"+screenshotName+filename+".png";
-		
-		
-		File destination=new File(destiPath);
-		
-		
-		
+
+	public static String captureScreenShot(WebDriver driver, String filename) throws IOException {
+
+		String screenshotName = new SimpleDateFormat("ddmmyyyhhmmss").format(new Date());
+
+		TakesScreenshot t = (TakesScreenshot) driver;
+
+		File src = t.getScreenshotAs(OutputType.FILE);
+
+		String destiPath = "C:\\Users\\webca\\eclipse-workspace\\seleniumpractice-sept2023\\SceenShot\\"
+				+ screenshotName + filename + ".png";
+
+		File destination = new File(destiPath);
+
 		FileUtils.copyFile(src, destination);
-		
-		
+
 		return destiPath;
-		
+
 	}
-	
-	
+
+	@BeforeMethod
+	public void login() {
+		log.info("login with valid crendential");
+
+		login = new loginPage(driver);
+
+		login.loginAction(pro.getUsername(), pro.getPassword());
+
+		log.info("Click on login button ");
+
+	}
+
 }
