@@ -52,4 +52,10 @@ public class Readpro {
 
 	}
 
+	public static void main(String[] args) throws Exception {
+
+		Readpro pro = new Readpro();
+		System.out.println(pro.getBrowser());
+	}
+
 }
