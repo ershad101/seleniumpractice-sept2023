@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-30T23:12:10 IST" name="Default suite" finished-at="2023-09-30T23:12:10 IST" duration-ms="97">
+  <suite started-at="2023-10-02T19:12:39 IST" name="Default suite" finished-at="2023-10-02T19:12:39 IST" duration-ms="79">
     <groups>
     </groups>
-    <test started-at="2023-09-30T23:12:10 IST" name="Default test" finished-at="2023-09-30T23:12:10 IST" duration-ms="97">
+    <test started-at="2023-10-02T19:12:39 IST" name="Default test" finished-at="2023-10-02T19:12:39 IST" duration-ms="79">
       <class name="Demo_Sep_TestCases.demo_Sep23_Homepage">
-        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@7fa98a66]" started-at="2023-09-30T23:12:10 IST" name="lounching" finished-at="2023-09-30T23:12:10 IST" duration-ms="10" status="FAIL">
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="lounching" finished-at="2023-10-02T19:12:39 IST" duration-ms="12" status="FAIL">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)]]>
@@ -47,11 +47,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounching -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@7fa98a66]" started-at="2023-09-30T23:12:10 IST" name="login" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696095730142" status="SKIP">
+        <test-method is-config="true" signature="login()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="login" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696254159378" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="validateHomepageTitle()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@7fa98a66]" started-at="2023-09-30T23:12:10 IST" name="validateHomepageTitle" finished-at="2023-09-30T23:12:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateHomepageTitle()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="validateHomepageTitle" finished-at="2023-10-02T19:12:39 IST" duration-ms="0" status="SKIP">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)]]>
@@ -91,7 +91,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomepageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@7fa98a66]" started-at="2023-09-30T23:12:10 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696095730158" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696254159390" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
