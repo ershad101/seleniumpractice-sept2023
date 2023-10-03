@@ -5,7 +5,6 @@
     <classes>
       <class name="Demo_Sep_TestCases.demo_Sep23_Homepage">
         <methods>
-          <include name="VerifyHoomepageCurrentUrl"/>
           <include name="login"/>
           <include name="lounching"/>
           <include name="tearDown"/>
