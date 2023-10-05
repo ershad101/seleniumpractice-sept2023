@@ -40,5 +40,12 @@ public class PageProperty {
 		return home;
 
 	}
+	
+	
+	public String getCheckInError() {
 
+		String home = pro.getProperty("CheckInError");
+		return home;
+
+	}
 }

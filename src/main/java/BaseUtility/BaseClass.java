@@ -13,7 +13,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
@@ -31,7 +34,7 @@ public class BaseClass {
 
 	public loginPage login;
 
-	@BeforeTest
+	@BeforeMethod
 	public void lounching() throws IOException {
 
 		pro = new Readpro();
@@ -66,7 +69,7 @@ public class BaseClass {
 
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void tearDown() throws InterruptedException {
 
 		Thread.sleep(500);
@@ -96,16 +99,6 @@ public class BaseClass {
 
 	}
 
-	@BeforeMethod
-	public void login() {
-		log.info("login with valid crendential");
-
-		login = new loginPage(driver);
-
-		login.loginAction(pro.getUsername(), pro.getPassword());
-
-		log.info("Click on login button ");
-
-	}
-
+	
+	
 }
