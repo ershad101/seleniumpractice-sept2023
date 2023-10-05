@@ -48,4 +48,11 @@ public class PageProperty {
 		return home;
 
 	}
+	
+	public String getHotelSelectTitle() {
+
+		String home = pro.getProperty("SelectHotelTitle");
+		return home;
+
+	}
 }

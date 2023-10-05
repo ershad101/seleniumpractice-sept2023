@@ -1,9 +1,11 @@
 package POMfile;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +13,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import Loggings.LogerClass;
+import ReadProperties.PageProperty;
 
 public class serachHotelPage {
 
@@ -19,6 +25,21 @@ public class serachHotelPage {
 	public Select select;
 
 	public WebDriverWait wait;
+	
+	
+	public Logger log;
+
+	public LogerClass obj;
+
+	public HomePage home;
+
+	public PageProperty pro;
+
+	public serachHotelPage searchHotel;
+
+	public loginPage login;
+	
+	public selectHotel selectHotel;
 
 	public serachHotelPage(WebDriver driver) {
 
@@ -210,6 +231,8 @@ public class serachHotelPage {
 
 		}
 	}
+	
+	
 
 	@FindBy(id = "Submit")
 	private WebElement submitButton;
@@ -247,5 +270,57 @@ public class serachHotelPage {
 		return text;
 
 	}
+	
+	
+	public void hotelDetailsSubmission(String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
+			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException {
+
+		login = new loginPage(driver);
+
+		login.login();
+
+		log = LogerClass.getlogger();
+
+		log.info("select the location ");
+
+		searchHotel = new serachHotelPage(driver);
+
+		searchHotel.locationSelecation(location);
+
+		log.info("select the hotel ");
+
+		searchHotel.hotelSelection(hotel);
+
+		log.info("select the room type ");
+
+		searchHotel.roomTypeSelection(roomType);
+
+		log.info("enter the check in date");
+
+		searchHotel.datePickInSendKeys(checkinDate);
+
+		log.info("enter the checkout date  ");
+
+		searchHotel.datepick_outsendkeys(checkoutdate);
+
+		log.info("select the adult per room ");
+
+		searchHotel.adult_roomSelection(adultoption);
+
+		log.info("select the children per room");
+
+		searchHotel.child_roomSelection(childrenO);
+
+		log.info("click on search button ");
+
+		searchHotel.clickonSubmitButton();
+
+
+		
+		
+	}
+
+	
+	
 
 }
