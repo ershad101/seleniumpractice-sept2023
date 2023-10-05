@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 02 19:12:39 IST 2023</td>
+<td>Started on:</td><td>Thu Oct 05 12:33:38 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (79 ms)</td>
+<tr><td>Total time:</td><td>235 seconds (235435 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,163 +67,59 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Demo_Sep_TestCases.demo_Sep23_Homepage.lounching()'><b>lounching</b><br>Test class: Demo_Sep_TestCases.demo_Sep23_Homepage</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at ReadProperties.Readpro.&lt;init&gt;(Readpro.java:17)
-	at BaseUtility.BaseClass.lounching(BaseClass.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace348984985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace348984985'><pre>java.io.FileNotFoundException: C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at ReadProperties.Readpro.&lt;init&gt;(Readpro.java:17)
-	at BaseUtility.BaseClass.lounching(BaseClass.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Demo_Sep_TestCases.demo_Sep23_Homepage.login()'><b>login</b><br>Test class: Demo_Sep_TestCases.demo_Sep23_Homepage</td>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Sydney, Hotel Creek, Super Deluxe, 1 - One, 5/5/23, 7/05/2023, 1 - One, 1 - One</td>
 <td></td>
-<td>-1696254159</td>
-<td>Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86</td></tr>
+<td>16</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
 <tr>
-<td title='Demo_Sep_TestCases.demo_Sep23_Homepage.tearDown()'><b>tearDown</b><br>Test class: Demo_Sep_TestCases.demo_Sep23_Homepage</td>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Brisbane, Hotel Hervey, Double, 3 - Three, 5/10/2023, 7/05/2023, 3 - Three, 3 - Three</td>
 <td></td>
-<td>-1696254159</td>
-<td>Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>14</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
 <tr>
-<td title='Demo_Sep_TestCases.demo_Sep23_Homepage.validateHomepageTitle()'><b>validateHomepageTitle</b><br>Test class: Demo_Sep_TestCases.demo_Sep23_Homepage</td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at ReadProperties.Readpro.&lt;init&gt;(Readpro.java:17)
-	at BaseUtility.BaseClass.lounching(BaseClass.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1762902523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1762902523'><pre>java.io.FileNotFoundException: C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at ReadProperties.Readpro.&lt;init&gt;(Readpro.java:17)
-	at BaseUtility.BaseClass.lounching(BaseClass.java:37)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-	at org.testng.TestRunner.run(TestRunner.java:589)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86</td></tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Melbourne, Hotel Creek, Standard, 2 - Two, 5/10/2023, 7/05/2023, 2 - Two, 2 - Two</td>
+<td></td>
+<td>14</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
+<tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: New York, Hotel Creek, Standard, 6 - Six, 5/10/2023, 7/05/2023, 4 - Four, 4 - Four</td>
+<td></td>
+<td>15</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
+<tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Angeles, Hotel Creek, Standard, 8 - Eight, 5/10/2023, 7/05/2023, 4 - Four, 4 - Four</td>
+<td></td>
+<td>12</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
+<tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: London, Hotel Creek, Standard, 5 - Five, 5/10/2023, 7/05/2023, 4 - Four, 4 - Four</td>
+<td></td>
+<td>14</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
+<tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Paris, Hotel Creek, Standard, 9 - Nine, 5/10/2023, 7/05/2023, 4 - Four, 4 - Four</td>
+<td></td>
+<td>14</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
+<tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Adelaide, Hotel Cornice, Deluxe, 4 - Four, 5/10/2023, 7/05/2023, 4 - Four, 4 - Four</td>
+<td></td>
+<td>14</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
+<tr>
+<td title='Demo_Sep_TestCases.demo_testcase_SearchHotel.test2()'><b>test2</b><br>Test class: Demo_Sep_TestCases.demo_testcase_SearchHotel<br>Parameters: Los, Hotel Creek, Standard, 7 - Seven, 5/10/2023, 7/05/2023, 4 - Four, 4 - Four</td>
+<td></td>
+<td>12</td>
+<td>Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689</td></tr>
 </table><p>
 </body>
 </html>

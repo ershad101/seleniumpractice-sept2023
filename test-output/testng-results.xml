@@ -1,101 +1,499 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-02T19:12:39 IST" name="Default suite" finished-at="2023-10-02T19:12:39 IST" duration-ms="79">
+  <suite started-at="2023-10-05T12:33:38 IST" name="Default suite" finished-at="2023-10-05T12:37:33 IST" duration-ms="235435">
     <groups>
     </groups>
-    <test started-at="2023-10-02T19:12:39 IST" name="Default test" finished-at="2023-10-02T19:12:39 IST" duration-ms="79">
-      <class name="Demo_Sep_TestCases.demo_Sep23_Homepage">
-        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="lounching" finished-at="2023-10-02T19:12:39 IST" duration-ms="12" status="FAIL">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-at ReadProperties.Readpro.<init>(Readpro.java:17)
-at BaseUtility.BaseClass.lounching(BaseClass.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+    <test started-at="2023-10-05T12:33:38 IST" name="Default test" finished-at="2023-10-05T12:37:33 IST" duration-ms="235435">
+      <class name="Demo_Sep_TestCases.demo_testcase_SearchHotel">
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:33:39 IST" name="lounching" finished-at="2023-10-05T12:34:00 IST" duration-ms="20901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounching -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="login" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696254159378" status="SKIP">
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:00 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:34:17 IST" duration-ms="16896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/5/23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="validateHomepageTitle()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="validateHomepageTitle" finished-at="2023-10-02T19:12:39 IST" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: C:\Users\webca\eclipse-workspace\seleniumpractice-sept2023\PropertyFile\Commondata.properties (The system cannot find the path specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-at ReadProperties.Readpro.<init>(Readpro.java:17)
-at BaseUtility.BaseClass.lounching(BaseClass.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHomepageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_Sep23_Homepage@6aba2b86]" started-at="2023-10-02T19:12:39 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696254159390" status="SKIP">
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:17 IST" name="tearDown" finished-at="2023-10-05T12:34:18 IST" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Demo_Sep_TestCases.demo_Sep23_Homepage -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:18 IST" name="lounching" finished-at="2023-10-05T12:34:28 IST" duration-ms="10022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:28 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:34:43 IST" duration-ms="14680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:43 IST" name="tearDown" finished-at="2023-10-05T12:34:43 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:43 IST" name="lounching" finished-at="2023-10-05T12:34:53 IST" duration-ms="9368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:34:53 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:35:07 IST" duration-ms="14562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:07 IST" name="tearDown" finished-at="2023-10-05T12:35:08 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:08 IST" name="lounching" finished-at="2023-10-05T12:35:17 IST" duration-ms="9069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:17 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:35:31 IST" duration-ms="14438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adelaide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Cornice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:31 IST" name="tearDown" finished-at="2023-10-05T12:35:32 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:32 IST" name="lounching" finished-at="2023-10-05T12:35:41 IST" duration-ms="9117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:41 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:35:55 IST" duration-ms="14150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:55 IST" name="tearDown" finished-at="2023-10-05T12:35:56 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:35:56 IST" name="lounching" finished-at="2023-10-05T12:36:04 IST" duration-ms="8440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:04 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:36:20 IST" duration-ms="15471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6 - Six]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:20 IST" name="tearDown" finished-at="2023-10-05T12:36:21 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:21 IST" name="lounching" finished-at="2023-10-05T12:36:28 IST" duration-ms="7949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:28 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:36:41 IST" duration-ms="12677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Los]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7 - Seven]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:41 IST" name="tearDown" finished-at="2023-10-05T12:36:42 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:42 IST" name="lounching" finished-at="2023-10-05T12:36:52 IST" duration-ms="9857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:36:52 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:37:05 IST" duration-ms="12893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angeles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8 - Eight]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:37:05 IST" name="tearDown" finished-at="2023-10-05T12:37:05 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:37:05 IST" name="lounching" finished-at="2023-10-05T12:37:18 IST" duration-ms="12883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounching -->
+        <test-method signature="test2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:37:18 IST" name="test2" data-provider="test" finished-at="2023-10-05T12:37:33 IST" duration-ms="14285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9 - Nine]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_testcase_SearchHotel@13c9d689]" started-at="2023-10-05T12:37:33 IST" name="tearDown" finished-at="2023-10-05T12:37:33 IST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo_Sep_TestCases.demo_testcase_SearchHotel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
