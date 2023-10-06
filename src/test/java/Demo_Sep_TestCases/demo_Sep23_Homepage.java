@@ -22,7 +22,7 @@ public class demo_Sep23_Homepage extends BaseClass {
 
 	public PageProperty pro;
 
-	@Test(retryAnalyzer = retryTc.class)
+	@Test
 	public void validateHomepageTitle() throws IOException {
 		log=LogerClass.getlogger();
 		
