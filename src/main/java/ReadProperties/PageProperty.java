@@ -12,7 +12,7 @@ public class PageProperty {
 	public PageProperty() throws IOException {
 
 		File path = new File(
-				"C:\\Users\\webca\\eclipse-workspace\\seleniumpractice-sept2023\\PropertyFile\\PageCommanData.properties");
+				"C:\\Users\\k\\git\\seleniumpractice-sept2023\\PropertyFile\\PageCommanData.properties");
 
 		FileInputStream f2 = new FileInputStream(path);
 

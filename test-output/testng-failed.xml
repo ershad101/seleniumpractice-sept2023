@@ -3,13 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo_Sep_TestCases.demo_sep23_BookHotel">
+      <class name="Demo_Sep_TestCases.demo_testcase_105">
         <methods>
+          <include name="verify_date_time"/>
           <include name="lounching"/>
           <include name="tearDown"/>
-          <include name="validateBookHotel" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Demo_Sep_TestCases.demo_sep23_BookHotel -->
+      </class> <!-- Demo_Sep_TestCases.demo_testcase_105 -->
+      <class name="Demo_Sep_TestCases.demo_testcase_SearchHotel">
+        <methods>
+          <include name="validateErrorMessage"/>
+          <include name="lounching"/>
+          <include name="tearDown"/>
+          <include name="validatehotelSelectTitle"/>
+        </methods>
+      </class> <!-- Demo_Sep_TestCases.demo_testcase_SearchHotel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

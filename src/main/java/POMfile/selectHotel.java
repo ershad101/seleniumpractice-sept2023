@@ -53,18 +53,36 @@ public class selectHotel {
 		e1.click();
 
 	}
-	
+
 	@FindBy(id = "continue")
 	private WebElement continueButton;
 
 	public void clickcontinueButton() {
 
-		 WebElement e1=wait.until(ExpectedConditions.visibilityOf(continueButton));
+		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(continueButton));
 
-		 
-		 e1.click();
+		e1.click();
 
 	}
-	
+
+	@FindBy(id = "arr_date_0")
+	private WebElement arrivalDAte;
+
+	public String getarrivaldate() {
+
+		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(arrivalDAte));
+		return e1.getText();
+
+	}
+
+	@FindBy(id = "dep_date_0")
+	private WebElement departuredTae;
+
+	public String getdepartureDAte() {
+
+		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(departuredTae));
+		return e1.getText();
+
+	}
 
 }
