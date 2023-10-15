@@ -15,7 +15,7 @@ public class LogerClass {
 
 	public static Logger getlogger() throws FileNotFoundException {
 
-		String path = "C:\\Users\\k\\git\\seleniumpractice-sept2023\\PropertyFile\\log4j.properties";
+		String path = ".\\PropertyFile\\log4j.properties";
 		File f1 = new File(path);
 		FileInputStream file = new FileInputStream(f1);
 

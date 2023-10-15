@@ -70,6 +70,8 @@ public class selectHotel {
 
 	public String getarrivaldate() {
 
+		wait= new WebDriverWait(driver, Duration.ofSeconds(25));
+		
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(arrivalDAte));
 		return e1.getAttribute("value");
 
@@ -79,6 +81,8 @@ public class selectHotel {
 	private WebElement departuredTae;
 
 	public String getdepartureDAte() {
+
+		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(departuredTae));
 		return e1.getAttribute("value");
