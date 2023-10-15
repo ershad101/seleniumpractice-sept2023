@@ -75,11 +75,10 @@ public class demo_sep23_BookHotel extends BaseClass {
 
 	}
 	
-
 	@DataProvider(name = "test")
 	public String[][] testData() throws EncryptedDocumentException, IOException {
 
-		String path = "C:\\Users\\k\\git\\seleniumpractice-sept2023\\testData\\BookHotel_TestData\\BookHotel1.xlsx";
+		String path = ".\\testData\\BookHotel_TestData\\BookHotel1.xlsx";
 
 		readExcel xl = new readExcel(path, "Sheet1");
 

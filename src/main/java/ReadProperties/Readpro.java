@@ -12,7 +12,7 @@ public class Readpro {
 	public Readpro() throws IOException {
 
 		File path = new File(
-				"C:\\Users\\k\\git\\seleniumpractice-sept2023\\PropertyFile\\Commondata.properties");
+				".\\PropertyFile\\Commondata.properties");
 
 		FileInputStream f2 = new FileInputStream(path);
 
