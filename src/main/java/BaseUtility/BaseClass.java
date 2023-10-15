@@ -86,7 +86,7 @@ public class BaseClass {
 
 		File src = t.getScreenshotAs(OutputType.FILE);
 
-		String destiPath = "C:\\Users\\webca\\eclipse-workspace\\seleniumpractice-sept2023\\SceenShot\\"
+		String destiPath = ".\\SceenShot\\"
 				+ screenshotName + filename + ".png";
 
 		File destination = new File(destiPath);

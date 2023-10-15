@@ -71,7 +71,7 @@ public class selectHotel {
 	public String getarrivaldate() {
 
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(arrivalDAte));
-		return e1.getText();
+		return e1.getAttribute("value");
 
 	}
 
@@ -81,7 +81,7 @@ public class selectHotel {
 	public String getdepartureDAte() {
 
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(departuredTae));
-		return e1.getText();
+		return e1.getAttribute("value");
 
 	}
 
