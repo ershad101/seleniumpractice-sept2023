@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,7 +17,7 @@ import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
-public class demo_testcase_105 extends BaseClass {
+public class DEMO_INTEGRATIONTESTIT extends BaseClass {
 
 	public selectHotel hotelselect;
 
@@ -34,13 +35,13 @@ public class demo_testcase_105 extends BaseClass {
 
 	public selectHotel selectHotel;
 
-	@Test(dependsOnGroups = "comman", dataProvider = "hotelDetails")
+	@Test(dataProvider = "hotelDetails")
 	public void verify_date_time(String location, String hotel, String roomType, String numberOfRoom,
-			String checkinDate, String checkoutdate, String adultoption, String childrenO)
+			String checkinDate, String checkoutdate, String adultoption, String childrenO, String type)
 			throws InterruptedException, IOException {
 
-		login = new loginPage(driver);
-		login.login();
+		//login = new loginPage(driver);
+		//login.login();
 		log = LogerClass.getlogger();
 
 		log.info("validate the arrivaldate and depart date ");
@@ -60,12 +61,25 @@ public class demo_testcase_105 extends BaseClass {
 
 		String expectedDepart_date = hotelselect.getdepartureDAte();
 
+		if (type.equals("valid")) {
+
+			Assert.assertEquals(expectationArrival_Date, checkinDate, "not match check in date");
+		} else if (type.equals("valid")) {
+			Assert.assertEquals(expectedDepart_date, checkoutdate, "not match check out date");
+
+		}
+
+		else {
+
+			Assert.assertTrue(false);
+		}
+
 	}
 
 	@DataProvider(name = "hotelDetails")
 	public String[][] hotelDetailsProvider() throws EncryptedDocumentException, IOException {
 
-		String path = ".\\testData\\SearchHotel\\hotelSearchDetails.xlsx";
+		String path = ".\\testData\\SearchHotel\\searchHotelDetails.xlsx";
 
 		readExcel xl = new readExcel(path, "Sheet1");
 

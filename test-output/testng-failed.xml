@@ -5,19 +5,11 @@
     <classes>
       <class name="Demo_Sep_TestCases.demo_testcase_105">
         <methods>
-          <include name="verify_date_time"/>
+          <include name="verify_date_time" invocation-numbers="0"/>
           <include name="lounching"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Demo_Sep_TestCases.demo_testcase_105 -->
-      <class name="Demo_Sep_TestCases.demo_testcase_SearchHotel">
-        <methods>
-          <include name="validateErrorMessage"/>
-          <include name="lounching"/>
-          <include name="tearDown"/>
-          <include name="validatehotelSelectTitle"/>
-        </methods>
-      </class> <!-- Demo_Sep_TestCases.demo_testcase_SearchHotel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
