@@ -314,7 +314,7 @@ public class serachHotelPage {
 		searchHotel.clickonSubmitButton();
 
 
-		
+		System.out.println();
 		
 	}
 
