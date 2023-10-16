@@ -17,7 +17,7 @@ import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
-public class DEMO_INTEGRATIONTESTIT extends BaseClass {
+public class SEARCH_HOTEL_DATEINTEGRATIONIT extends BaseClass {
 
 	public selectHotel hotelselect;
 

@@ -376,3 +376,55 @@
 2023-10-15 18:07:02 INFO  LogerClass:63 - enter address
 2023-10-15 18:07:02 INFO  LogerClass:66 - enter credit cards 
 2023-10-15 18:07:09 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 10:47:49 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 10:48:04 INFO  LogerClass:36 - login with valid crendetial
+2023-10-16 10:48:04 INFO  LogerClass:38 - validate homepage current url 
+2023-10-16 10:48:04 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 10:49:02 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 10:49:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-16 10:49:07 INFO  LogerClass:72 - Click on login button 
+2023-10-16 10:49:07 INFO  LogerClass:38 - validate homepage current url 
+2023-10-16 10:49:08 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 10:49:45 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 10:49:59 INFO  LogerClass:64 - login with valid crendential
+2023-10-16 10:50:00 INFO  LogerClass:72 - Click on login button 
+2023-10-16 10:50:00 INFO  LogerClass:38 - validate homepage current url 
+2023-10-16 10:50:01 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 20:13:28 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 20:13:32 INFO  LogerClass:36 - log to search hotel first
+2023-10-16 20:13:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-16 20:13:58 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 20:26:47 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 20:26:52 INFO  LogerClass:36 - log to search hotel first
+2023-10-16 20:26:52 INFO  LogerClass:64 - login with valid crendential
+2023-10-16 20:26:53 INFO  LogerClass:72 - Click on login button 
+2023-10-16 20:26:53 INFO  LogerClass:282 - select the location 
+2023-10-16 20:26:55 INFO  LogerClass:288 - select the hotel 
+2023-10-16 20:26:57 INFO  LogerClass:292 - select the room type 
+2023-10-16 20:26:58 INFO  LogerClass:296 - enter the check in date
+2023-10-16 20:27:00 INFO  LogerClass:300 - enter the checkout date  
+2023-10-16 20:27:02 INFO  LogerClass:304 - select the adult per room 
+2023-10-16 20:27:03 INFO  LogerClass:308 - select the children per room
+2023-10-16 20:27:05 INFO  LogerClass:312 - click on search button 
+2023-10-16 20:27:06 INFO  LogerClass:44 - select the hotel button
+2023-10-16 20:27:06 INFO  LogerClass:49 - fill the neccesory details
+2023-10-16 20:27:06 INFO  LogerClass:53 - enter name
+2023-10-16 20:27:06 INFO  LogerClass:58 - enter last name  
+2023-10-16 20:27:07 INFO  LogerClass:63 - enter address
+2023-10-16 20:27:07 INFO  LogerClass:66 - enter credit cards 
+2023-10-16 20:27:13 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 20:27:16 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 20:27:21 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-16 20:27:21 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-16 20:27:21 INFO  LogerClass:64 - login with valid crendential
+2023-10-16 20:27:22 INFO  LogerClass:72 - Click on login button 
+2023-10-16 20:27:22 INFO  LogerClass:282 - select the location 
+2023-10-16 20:27:24 INFO  LogerClass:288 - select the hotel 
+2023-10-16 20:27:25 INFO  LogerClass:292 - select the room type 
+2023-10-16 20:27:27 INFO  LogerClass:296 - enter the check in date
+2023-10-16 20:27:29 INFO  LogerClass:300 - enter the checkout date  
+2023-10-16 20:27:30 INFO  LogerClass:304 - select the adult per room 
+2023-10-16 20:27:32 INFO  LogerClass:308 - select the children per room
+2023-10-16 20:27:33 INFO  LogerClass:312 - click on search button 
+2023-10-16 20:27:34 INFO  LogerClass:58 - get the arrivadate as expectation 
+2023-10-16 20:27:35 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********

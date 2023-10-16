@@ -17,7 +17,7 @@ import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
-public class demo_testcase_SearchHotel extends BaseClass {
+public class SEARCH_HOTEL_HOTELCONFIRMATION extends BaseClass {
 
 	public Logger log;
 
