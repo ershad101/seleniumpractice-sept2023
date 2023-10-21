@@ -42,7 +42,7 @@ public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 		selectHotel = new selectHotel(driver);
 
 		log.info("select the hotel button");
-		selectHotel.selectHotelButton();
+		selectHotel.selectHotelButton("3");
 
 		selectHotel.clickcontinueButton();
 

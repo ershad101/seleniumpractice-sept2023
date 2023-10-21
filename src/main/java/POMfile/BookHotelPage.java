@@ -233,7 +233,7 @@ public class BookHotelPage {
 		return e1.getText();
 
 	}
-	
+
 	@FindBy(id = "last_name_span")
 	private WebElement last_name_span_ErrorMessage;
 
@@ -246,8 +246,7 @@ public class BookHotelPage {
 		return e1.getText();
 
 	}
-	
-	
+
 	@FindBy(id = "address_span")
 	private WebElement address_span_ErrorMessage;
 
@@ -260,7 +259,7 @@ public class BookHotelPage {
 		return e1.getText();
 
 	}
-	
+
 	@FindBy(id = "cc_num_span")
 	private WebElement credit_cardERROR;
 
@@ -273,8 +272,7 @@ public class BookHotelPage {
 		return e1.getText();
 
 	}
-	
-	
+
 	@FindBy(id = "cc_expiry_span")
 	private WebElement expiry_span_Error;
 
@@ -287,7 +285,7 @@ public class BookHotelPage {
 		return e1.getText();
 
 	}
-	
+
 	@FindBy(id = "cc_cvv_span")
 	private WebElement cvv_ErrorMessage;
 
@@ -298,6 +296,17 @@ public class BookHotelPage {
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(cvv_ErrorMessage));
 
 		return e1.getText();
+
+	}
+
+	@FindBy(id = "final_price_dis")
+
+	private WebElement finalPriceFiled;
+
+	public String getFinalPrice() {
+
+		wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		return wait.until(ExpectedConditions.visibilityOf(finalPriceFiled)).getText();
 
 	}
 }
