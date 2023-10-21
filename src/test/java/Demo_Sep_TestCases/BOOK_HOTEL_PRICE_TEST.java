@@ -11,13 +11,14 @@ import org.testng.annotations.Test;
 import BaseUtility.BaseClass;
 import ExcellUtilities.readExcel;
 import Loggings.LogerClass;
+import POMfile.BookHotelPage;
 import POMfile.HomePage;
 import POMfile.loginPage;
 import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
-public class demo_testcase_SearchHotel extends BaseClass {
+public class BOOK_HOTEL_PRICE_TEST extends BaseClass {
 
 	public Logger log;
 
@@ -30,13 +31,15 @@ public class demo_testcase_SearchHotel extends BaseClass {
 	public serachHotelPage searchHotel;
 
 	public loginPage login;
-	
+
 	public selectHotel selectHotel;
-	
 
-	@Test(dataProvider = "test",groups = "hotelfunction")
-	public void validateErrorMessage(String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
-			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException {
+	public BookHotelPage bookHotel;
+
+	@Test(dataProvider = "hotelPricedata", groups = "hotelfunction")
+	public void vlaidate_pricefield_bookedhotel_Page(String location, String hotel, String roomType,
+			String numberOfRoom, String checkinDate, String checkoutdate, String adultoption, String childrenO)
+			throws InterruptedException, IOException {
 
 		login = new loginPage(driver);
 
@@ -78,20 +81,29 @@ public class demo_testcase_SearchHotel extends BaseClass {
 
 		searchHotel.clickonSubmitButton();
 
-		pro = new PageProperty();
-		String expectedMessage = pro.getCheckInError();
+		selectHotel = new selectHotel(driver);
 
-		String ActualCheckinErro = searchHotel.getCheckInErrorMessage();
+		log.info("select the specific hotel ");
 
-		log.info("verify the error message");
-		Assert.assertEquals(ActualCheckinErro, expectedMessage);
+		selectHotel.selectHotelButton("0");
+
+		log.info("click on continue button");
+
+		selectHotel.clickcontinueButton();
+
+		log.info("validate the price for the hotel");
+
+		bookHotel = new BookHotelPage(driver);
+
+		String actualPrice = bookHotel.getFinalPrice();
+		System.out.println(actualPrice);
 
 	}
 
-	
-	@Test(dataProvider = "test2",groups = "comman")
-	public void validatehotelSelectTitle(String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
-			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException {
+	// @Test(dataProvider = "test2", groups = "comman")
+	public void validatehotelSelectTitle(String location, String hotel, String roomType, String numberOfRoom,
+			String checkinDate, String checkoutdate, String adultoption, String childrenO)
+			throws InterruptedException, IOException {
 
 		login = new loginPage(driver);
 
@@ -135,26 +147,21 @@ public class demo_testcase_SearchHotel extends BaseClass {
 
 		pro = new PageProperty();
 
-		
 		log.info("validate the title");
-		String extectedTtile=pro.getHotelSelectTitle();
+		String extectedTtile = pro.getHotelSelectTitle();
 
-		
-		selectHotel= new selectHotel(driver);
-		
-		String actualtitleTtile=selectHotel.getTitle();
-		
+		selectHotel = new selectHotel(driver);
+
+		String actualtitleTtile = selectHotel.getTitle();
+
 		Assert.assertEquals(actualtitleTtile, extectedTtile);
-		
-		
-	}
 
-	
+	}
 
 	@DataProvider(name = "test")
 	public String[][] testData() throws EncryptedDocumentException, IOException {
 
-		String path =".\\testData\\SearchHotel\\CheckInValidationData.xlsx";
+		String path = ".\\testData\\SearchHotel\\CheckInValidationData.xlsx";
 
 		readExcel xl = new readExcel(path, "Sheet1");
 
@@ -162,11 +169,11 @@ public class demo_testcase_SearchHotel extends BaseClass {
 		return data;
 
 	}
-	
-	@DataProvider(name = "test2")
+
+	@DataProvider(name = "hotelPricedata")
 	public String[][] selectHotel() throws EncryptedDocumentException, IOException {
 
-		String path = ".\\testData\\SearchHotel\\validateSccefullHotelTitle.xlsx";
+		String path = ".\\testData\\SearchHotel\\\\hotelPricedata.xlsx";
 
 		readExcel xl = new readExcel(path, "Sheet1");
 
