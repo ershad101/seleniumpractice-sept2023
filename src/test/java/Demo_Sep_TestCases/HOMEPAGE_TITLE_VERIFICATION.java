@@ -1,4 +1,4 @@
-package Demo_Sep_TestCases;
+	package Demo_Sep_TestCases;
 
 
 import java.io.IOException;
@@ -34,7 +34,7 @@ public class HOMEPAGE_TITLE_VERIFICATION extends BaseClass {
 
 		pro = new PageProperty();
 
-		String expectedTitle = pro.gethomepageTitle();
+		String expectedTitle = "Adactin.com - Hotel Reservation System";
 
 		String actualTitle = home.getHomePageTitle();
 
