@@ -17,7 +17,7 @@ import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
-public class demo_testcase_SearchHotel extends BaseClass {
+public class SEARCH_HOTEL_HOTELCONFIRMATION extends BaseClass {
 
 	public Logger log;
 
@@ -34,7 +34,7 @@ public class demo_testcase_SearchHotel extends BaseClass {
 	public selectHotel selectHotel;
 	
 
-	@Test(dataProvider = "test",groups = "hotelfunction")
+	@Test(dataProvider = "test",groups = "regression")
 	public void validateErrorMessage(String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
 			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException {
 
@@ -89,7 +89,7 @@ public class demo_testcase_SearchHotel extends BaseClass {
 	}
 
 	
-	@Test(dataProvider = "test2",groups = "comman")
+	@Test(dataProvider = "test2",groups = "integration")
 	public void validatehotelSelectTitle(String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
 			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException {
 

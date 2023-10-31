@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo_Sep_TestCases.demo_testcase_105">
+      <class name="Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION">
         <methods>
-          <include name="verify_date_time" invocation-numbers="0"/>
+          <include name="VerifyHoomepageCurrentUrl"/>
           <include name="lounching"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- Demo_Sep_TestCases.demo_testcase_105 -->
+      </class> <!-- Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

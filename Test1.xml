@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION"/>
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING"/>
+      <class name="Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION"/>
+      <class name="Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT"/>
+      <class name="Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION"/>
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

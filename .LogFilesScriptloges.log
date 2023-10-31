@@ -1,0 +1,594 @@
+2023-10-16 21:32:43 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 21:32:50 INFO  LogerClass:64 - login with valid crendential
+2023-10-16 21:32:52 INFO  LogerClass:72 - Click on login button 
+2023-10-16 21:32:52 INFO  LogerClass:102 - select the location 
+2023-10-16 21:32:54 INFO  LogerClass:108 - select the hotel 
+2023-10-16 21:32:55 INFO  LogerClass:112 - select the room type 
+2023-10-16 21:32:57 INFO  LogerClass:116 - enter the check in date
+2023-10-16 21:32:59 INFO  LogerClass:120 - enter the checkout date  
+2023-10-16 21:33:00 INFO  LogerClass:124 - select the adult per room 
+2023-10-16 21:33:02 INFO  LogerClass:128 - select the children per room
+2023-10-16 21:33:04 INFO  LogerClass:132 - click on search button 
+2023-10-16 21:33:05 INFO  LogerClass:139 - validate the title
+2023-10-16 21:33:06 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 21:33:11 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-16 21:33:18 INFO  LogerClass:31 - login with valid credential 
+2023-10-16 21:33:19 INFO  LogerClass:41 - valdiate homepage title
+2023-10-16 21:33:19 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-16 21:33:22 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:11:22 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:11:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:11:28 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:11:28 INFO  LogerClass:51 - select the location 
+2023-10-21 18:11:30 INFO  LogerClass:57 - select the hotel 
+2023-10-21 18:11:32 INFO  LogerClass:61 - select the room type 
+2023-10-21 18:11:34 INFO  LogerClass:65 - enter the check in date
+2023-10-21 18:11:35 INFO  LogerClass:69 - enter the checkout date  
+2023-10-21 18:11:37 INFO  LogerClass:73 - select the adult per room 
+2023-10-21 18:11:39 INFO  LogerClass:77 - select the children per room
+2023-10-21 18:11:40 INFO  LogerClass:81 - click on search button 
+2023-10-21 18:11:41 INFO  LogerClass:85 - select the specific hotel 
+2023-10-21 18:11:42 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:12:27 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:12:31 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:12:32 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:12:32 INFO  LogerClass:50 - select the location 
+2023-10-21 18:12:34 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:12:36 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:12:38 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:12:39 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:12:41 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:12:43 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:12:45 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:12:45 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:12:45 INFO  LogerClass:90 - click on continue button
+2023-10-21 18:12:46 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-21 18:12:46 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:23:45 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:23:50 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:23:52 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:23:52 INFO  LogerClass:50 - select the location 
+2023-10-21 18:23:54 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:23:56 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:23:57 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:23:59 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:24:01 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:24:03 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:24:04 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:24:07 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:24:07 INFO  LogerClass:90 - click on continue button
+2023-10-21 18:24:07 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-21 18:25:08 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:25:14 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:25:21 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:25:22 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:25:22 INFO  LogerClass:50 - select the location 
+2023-10-21 18:25:24 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:25:26 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:25:28 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:25:30 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:25:31 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:25:33 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:25:35 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:25:36 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:25:36 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:26:54 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:27:03 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:27:04 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:27:04 INFO  LogerClass:50 - select the location 
+2023-10-21 18:27:06 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:27:08 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:27:10 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:27:12 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:27:13 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:27:15 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:27:17 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:27:18 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:28:16 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:28:24 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:28:26 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:28:26 INFO  LogerClass:50 - select the location 
+2023-10-21 18:28:28 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:28:30 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:28:32 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:28:34 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:28:35 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:28:37 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:28:39 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:28:40 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:29:32 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:29:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:29:42 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:29:42 INFO  LogerClass:50 - select the location 
+2023-10-21 18:29:44 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:29:45 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:29:47 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:29:49 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:29:51 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:29:53 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:29:54 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:29:56 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:32:05 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:32:12 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:32:13 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:32:13 INFO  LogerClass:50 - select the location 
+2023-10-21 18:32:16 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:32:17 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:32:19 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:32:21 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:32:23 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:32:24 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:32:26 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:32:27 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:32:27 INFO  LogerClass:90 - click on continue button
+2023-10-21 18:32:28 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-21 18:32:54 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:43:41 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:43:48 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:43:49 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:43:49 INFO  LogerClass:50 - select the location 
+2023-10-21 18:43:51 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:43:53 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:43:55 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:43:56 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:43:58 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:44:00 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:44:02 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:44:02 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:44:03 INFO  LogerClass:90 - click on continue button
+2023-10-21 18:44:03 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-21 18:44:04 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:46:26 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:46:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:46:34 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:46:34 INFO  LogerClass:50 - select the location 
+2023-10-21 18:46:36 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:46:37 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:46:39 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:46:41 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:46:43 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:46:45 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:46:47 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:46:48 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:46:48 INFO  LogerClass:90 - click on continue button
+2023-10-21 18:46:48 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-21 18:46:49 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:47:05 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:47:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:47:15 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:47:15 INFO  LogerClass:50 - select the location 
+2023-10-21 18:47:17 INFO  LogerClass:56 - select the hotel 
+2023-10-21 18:47:18 INFO  LogerClass:60 - select the room type 
+2023-10-21 18:47:20 INFO  LogerClass:64 - enter the check in date
+2023-10-21 18:47:22 INFO  LogerClass:68 - enter the checkout date  
+2023-10-21 18:47:24 INFO  LogerClass:72 - select the adult per room 
+2023-10-21 18:47:26 INFO  LogerClass:76 - select the children per room
+2023-10-21 18:47:27 INFO  LogerClass:80 - click on search button 
+2023-10-21 18:47:28 INFO  LogerClass:86 - select the specific hotel 
+2023-10-21 18:47:28 INFO  LogerClass:90 - click on continue button
+2023-10-21 18:47:29 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-21 18:47:30 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:47:32 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:47:39 INFO  LogerClass:31 - login with valid credential 
+2023-10-21 18:47:39 INFO  LogerClass:41 - valdiate homepage title
+2023-10-21 18:47:40 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-21 18:47:41 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-21 18:47:46 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-21 18:47:46 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-21 18:47:46 INFO  LogerClass:64 - login with valid crendential
+2023-10-21 18:47:47 INFO  LogerClass:72 - Click on login button 
+2023-10-21 18:47:47 INFO  LogerClass:282 - select the location 
+2023-10-21 18:47:49 INFO  LogerClass:288 - select the hotel 
+2023-10-21 18:47:51 INFO  LogerClass:292 - select the room type 
+2023-10-21 18:47:53 INFO  LogerClass:296 - enter the check in date
+2023-10-21 18:47:55 INFO  LogerClass:300 - enter the checkout date  
+2023-10-21 18:47:56 INFO  LogerClass:304 - select the adult per room 
+2023-10-21 18:47:58 INFO  LogerClass:308 - select the children per room
+2023-10-21 18:48:00 INFO  LogerClass:312 - click on search button 
+2023-10-21 18:48:01 INFO  LogerClass:58 - get the arrivadate as expectation 
+2023-10-21 18:48:01 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-27 23:38:41 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-27 23:40:44 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-27 23:43:47 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-27 23:50:57 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-27 23:51:16 INFO  LogerClass:64 - login with valid crendential
+2023-10-27 23:51:18 INFO  LogerClass:72 - Click on login button 
+2023-10-27 23:51:18 INFO  LogerClass:50 - select the location 
+2023-10-27 23:51:20 INFO  LogerClass:56 - select the hotel 
+2023-10-27 23:51:22 INFO  LogerClass:60 - select the room type 
+2023-10-27 23:51:24 INFO  LogerClass:64 - enter the check in date
+2023-10-27 23:51:25 INFO  LogerClass:68 - enter the checkout date  
+2023-10-27 23:51:27 INFO  LogerClass:72 - select the adult per room 
+2023-10-27 23:51:29 INFO  LogerClass:76 - select the children per room
+2023-10-27 23:51:30 INFO  LogerClass:80 - click on search button 
+2023-10-27 23:51:32 INFO  LogerClass:86 - select the specific hotel 
+2023-10-27 23:51:32 INFO  LogerClass:90 - click on continue button
+2023-10-27 23:51:34 INFO  LogerClass:94 - validate the price for the hotel
+2023-10-27 23:51:35 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-10-28 00:05:18 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 00:05:18 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:05:18 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:44 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:45 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:45 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:45 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 00:06:45 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:45 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:45 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 00:06:45 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 00:06:45 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 00:06:45 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 00:06:45 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:04 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:05 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:06 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:07 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:07 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:07 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:07 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:07 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:07 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:07 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:07 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:08 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:08 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:08 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:08 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:09 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:09 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:09 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:10 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:10 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:10 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:11 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:11 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:18:11 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:18:11 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:18:11 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:18:11 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:19:40 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:19:40 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:19:40 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:21:34 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:21:34 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:21:34 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:21:34 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:29 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:27:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:29 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:27:29 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:27:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:29 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:27:29 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:27:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:30 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:27:30 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:27:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:27:30 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:27:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:27 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:28 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:29 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:28:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:29 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:30 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:28:30 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:28:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:30 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:28:30 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:28:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:30 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:28:30 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:28:30 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:30 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:28:31 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:32 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:33 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:28:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:33 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:28:33 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:28:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:28:33 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:28:33 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:36 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:37 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:38 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:29:39 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:29:39 INFO  LogerClass:36 - log to search hotel first
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:29:39 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:29:39 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-28 23:29:39 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:31 - login with valid credential 
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:29:39 INFO  LogerClass:64 - login with valid crendential
+2023-10-28 23:30:44 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-28 23:31:24 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-28 23:34:36 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-28 23:34:36 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:23 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:24 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:24 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:24 INFO  LogerClass:36 - log to search hotel first
+2023-10-31 22:30:24 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:24 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:24 INFO  LogerClass:47 - validate the arrivaldate and depart date 
+2023-10-31 22:30:24 INFO  LogerClass:51 - fill the neccessory data to search hotel 
+2023-10-31 22:30:24 INFO  LogerClass:64 - login with valid crendential
+2023-10-31 22:30:24 INFO  LogerClass:31 - login with valid credential 
+2023-10-31 22:30:25 INFO  LogerClass:64 - login with valid crendential

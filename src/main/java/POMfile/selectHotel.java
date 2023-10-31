@@ -1,6 +1,7 @@
 package POMfile;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -44,24 +45,35 @@ public class selectHotel {
 
 	}
 
-	@FindBy(id = "radiobutton_0")
-	private WebElement selectHotelButton;
-
-	public void selectHotelButton() {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
-		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(selectHotelButton));
-		e1.click();
-
-	}
-
 	@FindBy(id = "continue")
 	private WebElement continueButton;
 
 	public void clickcontinueButton() {
-
+		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(continueButton));
-
 		e1.click();
+
+	}
+
+	@FindBy(xpath = "//input[@type='radio']")
+	private List<WebElement> RadioButtonList;
+
+	public void selectHotelButton(String value) {
+
+		for (WebElement elements : RadioButtonList) {
+
+			String extValue = elements.getAttribute("value");
+
+			System.out.println();
+			if (extValue.equals(value)) {
+				wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+
+				wait.until(ExpectedConditions.elementToBeClickable(elements)).click();
+
+				break;
+
+			}
+		}
 
 	}
 
@@ -70,8 +82,8 @@ public class selectHotel {
 
 	public String getarrivaldate() {
 
-		wait= new WebDriverWait(driver, Duration.ofSeconds(25));
-		
+		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(arrivalDAte));
 		return e1.getAttribute("value");
 
