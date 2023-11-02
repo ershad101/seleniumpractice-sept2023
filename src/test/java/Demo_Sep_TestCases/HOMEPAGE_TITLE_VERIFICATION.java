@@ -23,7 +23,7 @@ public class HOMEPAGE_TITLE_VERIFICATION extends BaseClass {
 
 	public PageProperty pro;
 
-	@Test
+	@Test(groups="integration")
 	public void validateHomepageTitle() throws IOException {
 		log=LogerClass.getlogger();
 		

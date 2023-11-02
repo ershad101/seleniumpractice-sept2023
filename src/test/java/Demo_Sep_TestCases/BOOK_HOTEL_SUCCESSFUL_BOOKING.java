@@ -27,7 +27,7 @@ public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 	
 	
 
-	@Test(dataProvider = "test")
+	@Test(dataProvider = "test", groups= "smoke" )
 	public void validateBookHotel(String nameFirst, String nameLast, String address, String creditCards, String creditCartType, String month, String year, String cvv,String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
 			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException  {
 

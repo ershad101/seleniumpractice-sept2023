@@ -20,7 +20,7 @@ public class HOMEPAGE_CURRENTURLVERIFICATION extends BaseClass {
 
 	public PageProperty pro;
 
-	@Test
+	@Test(groups="regression")
 	
 	public void VerifyHoomepageCurrentUrl() throws IOException {
 

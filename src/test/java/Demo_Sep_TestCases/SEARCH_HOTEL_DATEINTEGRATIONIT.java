@@ -35,7 +35,7 @@ public class SEARCH_HOTEL_DATEINTEGRATIONIT extends BaseClass {
 
 	public selectHotel selectHotel;
 
-	@Test(dataProvider = "hotelDetails")
+	@Test(dataProvider = "hotelDetails" , groups="integration")
 	public void verify_date_time(String location, String hotel, String roomType, String numberOfRoom,
 			String checkinDate, String checkoutdate, String adultoption, String childrenO, String type)
 			throws InterruptedException, IOException {

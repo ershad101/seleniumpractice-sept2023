@@ -2,14 +2,46 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+        <include name="integration"/>
+      </run>
+    </groups>
     <classes>
-      <class name="Demo_Sep_TestCases.demo_sep23_BookHotel">
+      <class name="Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT">
         <methods>
-          <include name="lounching"/>
-          <include name="tearDown"/>
-          <include name="validateBookHotel"/>
+          <include name="verify_date_time" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Demo_Sep_TestCases.demo_sep23_BookHotel -->
+      </class> <!-- Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT -->
+      <class name="Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION">
+        <methods>
+          <include name="validateHomepageTitle"/>
+        </methods>
+      </class> <!-- Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION -->
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST">
+        <methods>
+          <include name="validatehotelSelectTitle"/>
+          <include name="vlaidate_pricefield_bookedhotel_Page" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST -->
+      <class name="Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION">
+        <methods>
+          <include name="validatehotelSelectTitle" invocation-numbers="0 1"/>
+          <include name="validateErrorMessage" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+        </methods>
+      </class> <!-- Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION -->
+      <class name="Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION">
+        <methods>
+          <include name="VerifyHoomepageCurrentUrl"/>
+        </methods>
+      </class> <!-- Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION -->
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING">
+        <methods>
+          <include name="validateBookHotel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -36,7 +36,7 @@ public class BOOK_HOTEL_PRICE_TEST extends BaseClass {
 
 	public BookHotelPage bookHotel;
 
-	@Test(dataProvider = "hotelPricedata", groups = "hotelfunction")
+	@Test(dataProvider = "hotelPricedata", groups = "smoke")
 	public void vlaidate_pricefield_bookedhotel_Page(String location, String hotel, String roomType,
 			String numberOfRoom, String checkinDate, String checkoutdate, String adultoption, String childrenO)
 			throws InterruptedException, IOException {
@@ -100,7 +100,7 @@ public class BOOK_HOTEL_PRICE_TEST extends BaseClass {
 
 	}
 
-	// @Test(dataProvider = "test2", groups = "comman")
+	 @Test(dataProvider = "test2", groups = "smoke")
 	public void validatehotelSelectTitle(String location, String hotel, String roomType, String numberOfRoom,
 			String checkinDate, String checkoutdate, String adultoption, String childrenO)
 			throws InterruptedException, IOException {
