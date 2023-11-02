@@ -187,3 +187,10 @@
 2023-10-21 18:48:00 INFO  LogerClass:312 - click on search button 
 2023-10-21 18:48:01 INFO  LogerClass:58 - get the arrivadate as expectation 
 2023-10-21 18:48:01 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-02 23:44:01 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-02 23:44:14 INFO  LogerClass:34 - login with valid crendential 
+2023-11-02 23:44:14 INFO  LogerClass:67 - login with valid crendential
+2023-11-02 23:44:15 INFO  LogerClass:80 - Click on login button 
+2023-11-02 23:44:15 INFO  LogerClass:40 - clickon logout button
+2023-11-02 23:44:16 INFO  LogerClass:46 - verify the expected result after logout
+2023-11-02 23:44:16 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
