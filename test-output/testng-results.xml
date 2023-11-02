@@ -1,17 +1,1114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="0" failed="17" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-05T19:19:18 IST" name="Default suite" finished-at="2023-10-05T19:19:54 IST" duration-ms="35675">
+<<<<<<< HEAD
+  <suite started-at="2023-11-02T23:44:01 IST" name="Default suite" finished-at="2023-11-02T23:44:17 IST" duration-ms="15995">
     <groups>
     </groups>
-    <test started-at="2023-10-05T19:19:18 IST" name="Default test" finished-at="2023-10-05T19:19:54 IST" duration-ms="35675">
-      <class name="Demo_Sep_TestCases.demo_sep23_BookHotel">
-        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.demo_sep23_BookHotel@13c9d689]" started-at="2023-10-05T19:19:19 IST" name="lounching" finished-at="2023-10-05T19:19:32 IST" duration-ms="12700" status="PASS">
+    <test started-at="2023-11-02T23:44:01 IST" name="Default test" finished-at="2023-11-02T23:44:17 IST" duration-ms="15995">
+      <class name="Demo_Sep_TestCases.LOGOUT_VALIDATECREDENTIAL">
+        <test-method is-config="true" signature="lounching()[pri:0, instance:Demo_Sep_TestCases.LOGOUT_VALIDATECREDENTIAL@397fbdb]" started-at="2023-11-02T23:44:01 IST" name="lounching" finished-at="2023-11-02T23:44:14 IST" duration-ms="13388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lounching -->
-        <test-method signature="validateBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.demo_sep23_BookHotel@13c9d689]" started-at="2023-10-05T19:19:32 IST" name="validateBookHotel" data-provider="test" finished-at="2023-10-05T19:19:54 IST" duration-ms="21642" status="PASS">
+        <test-method signature="validateLogoutFunctiionality()[pri:0, instance:Demo_Sep_TestCases.LOGOUT_VALIDATECREDENTIAL@397fbdb]" started-at="2023-11-02T23:44:14 IST" name="validateLogoutFunctiionality" finished-at="2023-11-02T23:44:16 IST" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutFunctiionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.LOGOUT_VALIDATECREDENTIAL@397fbdb]" started-at="2023-11-02T23:44:16 IST" name="tearDown" finished-at="2023-11-02T23:44:17 IST" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo_Sep_TestCases.LOGOUT_VALIDATECREDENTIAL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
+  <suite started-at="2023-10-31T22:30:20 IST" name="Suite" finished-at="2023-10-31T22:30:25 IST" duration-ms="4252">
+    <groups>
+      <group name="regression">
+        <method signature="HOMEPAGE_CURRENTURLVERIFICATION.VerifyHoomepageCurrentUrl()[pri:0, instance:Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION@67d48005]" name="VerifyHoomepageCurrentUrl" class="Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION"/>
+        <method signature="SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" name="validateErrorMessage" class="Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION"/>
+      </group> <!-- regression -->
+      <group name="integration">
+        <method signature="HOMEPAGE_TITLE_VERIFICATION.validateHomepageTitle()[pri:0, instance:Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION@12468a38]" name="validateHomepageTitle" class="Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION"/>
+        <method signature="SEARCH_HOTEL_DATEINTEGRATIONIT.verify_date_time(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT@9f116cc]" name="verify_date_time" class="Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT"/>
+        <method signature="SEARCH_HOTEL_HOTELCONFIRMATION.validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" name="validatehotelSelectTitle" class="Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="BOOK_HOTEL_PRICE_TEST.validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST@1aa7ecca]" name="validatehotelSelectTitle" class="Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST"/>
+        <method signature="BOOK_HOTEL_PRICE_TEST.vlaidate_pricefield_bookedhotel_Page(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST@1aa7ecca]" name="vlaidate_pricefield_bookedhotel_Page" class="Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST"/>
+        <method signature="BOOK_HOTEL_SUCCESSFUL_BOOKING.validateBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING@294425a7]" name="validateBookHotel" class="Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-10-31T22:30:20 IST" name="Test" finished-at="2023-10-31T22:30:25 IST" duration-ms="4252">
+      <class name="Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION">
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="175" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="7" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adelaide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Cornice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="8" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6 - Six]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Los]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7 - Seven]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angeles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8 - Eight]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validateErrorMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:23 IST" name="validateErrorMessage" data-provider="test" finished-at="2023-10-31T22:30:23 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9 - Nine]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validateErrorMessage(SEARCH_HOTEL_HOTELCONFIRMATION.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessage -->
+        <test-method signature="validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:24 IST" name="validatehotelSelectTitle" data-provider="test2" finished-at="2023-10-31T22:30:24 IST" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validatehotelSelectTitle(SEARCH_HOTEL_HOTELCONFIRMATION.java:98)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehotelSelectTitle -->
+        <test-method signature="validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION@3bb9a3ff]" started-at="2023-10-31T22:30:24 IST" name="validatehotelSelectTitle" data-provider="test2" finished-at="2023-10-31T22:30:24 IST" duration-ms="5" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION.validatehotelSelectTitle(SEARCH_HOTEL_HOTELCONFIRMATION.java:98)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehotelSelectTitle -->
+      </class> <!-- Demo_Sep_TestCases.SEARCH_HOTEL_HOTELCONFIRMATION -->
+      <class name="Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION">
+        <test-method signature="VerifyHoomepageCurrentUrl()[pri:0, instance:Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION@67d48005]" started-at="2023-10-31T22:30:24 IST" name="VerifyHoomepageCurrentUrl" finished-at="2023-10-31T22:30:24 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION.VerifyHoomepageCurrentUrl(HOMEPAGE_CURRENTURLVERIFICATION.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHoomepageCurrentUrl -->
+      </class> <!-- Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION -->
+      <class name="Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION">
+        <test-method signature="validateHomepageTitle()[pri:0, instance:Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION@12468a38]" started-at="2023-10-31T22:30:24 IST" name="validateHomepageTitle" finished-at="2023-10-31T22:30:24 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.HomePage.getHomePageTitle(HomePage.java:41)
+at Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION.validateHomepageTitle(HOMEPAGE_TITLE_VERIFICATION.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomepageTitle -->
+      </class> <!-- Demo_Sep_TestCases.HOMEPAGE_TITLE_VERIFICATION -->
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING">
+        <test-method signature="validateBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING@294425a7]" started-at="2023-10-31T22:30:24 IST" name="validateBookHotel" data-provider="test" finished-at="2023-10-31T22:30:24 IST" duration-ms="17" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -94,14 +1191,280 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at POMfile.serachHotelPage.hotelDetailsSubmission(serachHotelPage.java:278)
+at Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING.validateBookHotel(BOOK_HOTEL_SUCCESSFUL_BOOKING.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBookHotel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo_Sep_TestCases.demo_sep23_BookHotel@13c9d689]" started-at="2023-10-05T19:19:54 IST" name="tearDown" finished-at="2023-10-05T19:19:54 IST" duration-ms="506" status="PASS">
+      </class> <!-- Demo_Sep_TestCases.BOOK_HOTEL_SUCCESSFUL_BOOKING -->
+      <class name="Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT">
+        <test-method signature="verify_date_time(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT@9f116cc]" started-at="2023-10-31T22:30:24 IST" name="verify_date_time" data-provider="hotelDetails" finished-at="2023-10-31T22:30:24 IST" duration-ms="23" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at POMfile.serachHotelPage.hotelDetailsSubmission(serachHotelPage.java:278)
+at Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT.verify_date_time(SEARCH_HOTEL_DATEINTEGRATIONIT.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Demo_Sep_TestCases.demo_sep23_BookHotel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verify_date_time -->
+      </class> <!-- Demo_Sep_TestCases.SEARCH_HOTEL_DATEINTEGRATIONIT -->
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST">
+        <test-method signature="validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST@1aa7ecca]" started-at="2023-10-31T22:30:24 IST" name="validatehotelSelectTitle" finished-at="2023-10-31T22:30:24 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST.validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException requires a @DataProvider named : test2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST.validatehotelSelectTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException requires a @DataProvider named : test2
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:561)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehotelSelectTitle -->
+        <test-method signature="vlaidate_pricefield_bookedhotel_Page(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST@1aa7ecca]" started-at="2023-10-31T22:30:25 IST" name="vlaidate_pricefield_bookedhotel_Page" data-provider="hotelPricedata" finished-at="2023-10-31T22:30:25 IST" duration-ms="7" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7/05/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9/05/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Input must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Input must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
+at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
+at POMfile.loginPage.loginAction(loginPage.java:49)
+at POMfile.loginPage.login(loginPage.java:69)
+at Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST.vlaidate_pricefield_bookedhotel_Page(BOOK_HOTEL_PRICE_TEST.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vlaidate_pricefield_bookedhotel_Page -->
+      </class> <!-- Demo_Sep_TestCases.BOOK_HOTEL_PRICE_TEST -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+>>>>>>> master
 </testng-results>

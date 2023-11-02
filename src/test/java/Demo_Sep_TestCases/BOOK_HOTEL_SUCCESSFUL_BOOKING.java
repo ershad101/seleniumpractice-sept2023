@@ -14,7 +14,7 @@ import POMfile.BookHotelPage;
 import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 
-public class demo_sep23_BookHotel extends BaseClass {
+public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 
 	public Logger log;
 
@@ -27,7 +27,7 @@ public class demo_sep23_BookHotel extends BaseClass {
 	
 	
 
-	@Test(dataProvider = "test")
+	@Test(dataProvider = "test", groups= "smoke" )
 	public void validateBookHotel(String nameFirst, String nameLast, String address, String creditCards, String creditCartType, String month, String year, String cvv,String location, String hotel, String roomType, String numberOfRoom, String checkinDate,
 			String checkoutdate, String adultoption, String childrenO) throws InterruptedException, IOException  {
 
@@ -42,7 +42,7 @@ public class demo_sep23_BookHotel extends BaseClass {
 		selectHotel = new selectHotel(driver);
 
 		log.info("select the hotel button");
-		selectHotel.selectHotelButton();
+		selectHotel.selectHotelButton("3");
 
 		selectHotel.clickcontinueButton();
 
@@ -75,11 +75,10 @@ public class demo_sep23_BookHotel extends BaseClass {
 
 	}
 	
-
 	@DataProvider(name = "test")
 	public String[][] testData() throws EncryptedDocumentException, IOException {
 
-		String path = "C:\\Users\\webca\\eclipse-workspace\\seleniumpractice-sept2023\\testData\\BookHotel_TestData\\BookHotel1.xlsx";
+		String path = ".\\testData\\BookHotel_TestData\\BookHotel1.xlsx";
 
 		readExcel xl = new readExcel(path, "Sheet1");
 

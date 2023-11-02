@@ -77,7 +77,7 @@ public class ReadxcelFile {
 			data = formatter.formatCellValue(cell);
 
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 
 		return data;

@@ -57,13 +57,21 @@ public class loginPage {
 
 	}
 
-	public void login() throws IOException {
+	public void login()  {
 
-		log = LogerClass.getlogger();
+		
+		try {
+			
+			log = LogerClass.getlogger();
 
-		log.info("login with valid crendential");
+			log.info("login with valid crendential");
 
-		pro = new Readpro();
+			pro = new Readpro();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			
+		}
 		
 
 		loginAction(pro.getUsername(),pro.getPassword()

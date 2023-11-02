@@ -9,31 +9,32 @@ import org.testng.annotations.Test;
 import BaseUtility.BaseClass;
 import Loggings.LogerClass;
 import POMfile.HomePage;
+import POMfile.loginPage;
 import ReadProperties.PageProperty;
-import retryAnylizer.retryTc;
 
-public class demo_sep23_HomeCurrentUrl extends BaseClass {
+public class HOMEPAGE_CURRENTURLVERIFICATION extends BaseClass {
 
 	public Logger log;
 	public HomePage home;
+	public loginPage login;
 
 	public PageProperty pro;
 
-	@Test()
+	@Test(groups="regression")
+	
 	public void VerifyHoomepageCurrentUrl() throws IOException {
 
 		log = LogerClass.getlogger();
-		
-		pro= new PageProperty()
-				;
-		
-		log=LogerClass.getlogger();
-		
-		
-		home= new HomePage(driver);
-		
 
-		log.info("login with valid crendetial");
+		pro = new PageProperty();
+
+		log = LogerClass.getlogger();
+
+		home = new HomePage(driver);
+
+		login = new loginPage(driver);
+
+		login.login();
 
 		log.info("validate homepage current url ");
 

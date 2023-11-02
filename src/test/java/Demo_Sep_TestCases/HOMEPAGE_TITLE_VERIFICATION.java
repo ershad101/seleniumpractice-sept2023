@@ -1,4 +1,5 @@
-package Demo_Sep_TestCases;
+	package Demo_Sep_TestCases;
+
 
 import java.io.IOException;
 
@@ -10,9 +11,9 @@ import BaseUtility.BaseClass;
 import Loggings.LogerClass;
 import POMfile.HomePage;
 import ReadProperties.PageProperty;
-import retryAnylizer.retryTc;
 
-public class demo_Sep23_Homepage extends BaseClass {
+
+public class HOMEPAGE_TITLE_VERIFICATION extends BaseClass {
 
 	public Logger log;
 
@@ -22,7 +23,7 @@ public class demo_Sep23_Homepage extends BaseClass {
 
 	public PageProperty pro;
 
-	@Test
+	@Test(groups="integration")
 	public void validateHomepageTitle() throws IOException {
 		log=LogerClass.getlogger();
 		
@@ -33,7 +34,7 @@ public class demo_Sep23_Homepage extends BaseClass {
 
 		pro = new PageProperty();
 
-		String expectedTitle = pro.gethomepageTitle();
+		String expectedTitle = "Adactin.com - Hotel Reservation System";
 
 		String actualTitle = home.getHomePageTitle();
 

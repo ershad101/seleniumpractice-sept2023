@@ -55,5 +55,18 @@ public class HomePage {
 		return url;
 
 	}
+	
+	
+	@FindBy(xpath = "//a[contains(text(),'Logout')]")
+	private WebElement logoutButton;
+	
+	public void clickOnLogoutButton() {
+
+		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+
+		wait.until(ExpectedConditions.visibilityOf(logoutButton)).click();
+
+
+	}
 
 }
