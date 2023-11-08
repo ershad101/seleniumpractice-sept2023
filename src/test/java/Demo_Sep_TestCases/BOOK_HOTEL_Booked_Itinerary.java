@@ -1,9 +1,11 @@
 package Demo_Sep_TestCases;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -11,12 +13,12 @@ import BaseUtility.BaseClass;
 import ExcellUtilities.readExcel;
 import Loggings.LogerClass;
 import POMfile.BookHotelPage;
+import POMfile.Booked_Itinerary_Page;
 import POMfile.BookingConfirmation;
 import POMfile.selectHotel;
 import POMfile.serachHotelPage;
 
-public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
-
+public class BOOK_HOTEL_Booked_Itinerary extends BaseClass {
 	public Logger log;
 
 	public selectHotel selectHotel;
@@ -24,11 +26,11 @@ public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 	public BookHotelPage bookHotel;
 
 	public serachHotelPage searchHotelPage;
-	
-	public BookingConfirmation confirmation;
-	
 
-	@Test(dataProvider = "test", groups = "smoke")
+	public BookingConfirmation confirmation;
+	public Booked_Itinerary_Page bookIternerary;
+
+	@Test(dataProvider = "test")
 	public void validateBookHotel(String nameFirst, String nameLast, String address, String creditCards,
 			String creditCartType, String month, String year, String cvv, String location, String hotel,
 			String roomType, String numberOfRoom, String checkinDate, String checkoutdate, String adultoption,
@@ -75,17 +77,29 @@ public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 
 		bookHotel.book_now_Button_Click();
 
-		log.info("validate the order number  ");
+		log.info("click on my iternary button");
 
-		
-		
-		confirmation= new BookingConfirmation(driver);
-		
-			if (confirmation.orderNumberDisplay()) {
+		confirmation = new BookingConfirmation(driver);
+
+		confirmation.Clickon_my_itinerary();
+		log.info("validate the order id ");
+
+		bookIternerary = new Booked_Itinerary_Page(driver);
+
+		String bookingIds = confirmation.getOrderNumber();
+
+		List<String> actualIds = bookIternerary.getBookingIDSlist();
+
+		for (String ids : actualIds) {
+
+			if (ids.equals(bookingIds)) {
 				
-				System.out.println("order number is "+confirmation.getOrderNumber());
+				System.out.println("order ids is " + ids);
+
+				Assert.assertTrue(true);
 			}
-		
+		}
+
 	}
 
 	@DataProvider(name = "test")

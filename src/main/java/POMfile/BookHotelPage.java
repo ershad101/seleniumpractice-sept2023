@@ -67,7 +67,7 @@ public class BookHotelPage {
 
 	public void first_nameSendkeys(String value) {
 
-		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(45));
 
 		WebElement e1 = wait.until(ExpectedConditions.visibilityOf(first_name));
 
