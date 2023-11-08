@@ -602,3 +602,567 @@
 2023-10-31 22:30:24 INFO  LogerClass:31 - login with valid credential 
 2023-10-31 22:30:25 INFO  LogerClass:64 - login with valid crendential
 >>>>>>> master
+2023-11-02 23:49:45 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-02 23:49:57 INFO  LogerClass:67 - login with valid crendential
+2023-11-02 23:49:58 INFO  LogerClass:80 - Click on login button 
+2023-11-02 23:49:58 INFO  LogerClass:38 - clickon logout button
+2023-11-02 23:49:58 INFO  LogerClass:44 - verify the expected result after logout
+2023-11-02 23:49:59 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:29:35 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:29:45 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:29:46 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:29:46 INFO  LogerClass:50 - select the location 
+2023-11-07 16:29:49 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:30:25 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:30:28 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:30:33 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:30:33 INFO  LogerClass:50 - select the location 
+2023-11-07 16:30:35 INFO  LogerClass:56 - select the hotel 
+2023-11-07 16:30:37 INFO  LogerClass:60 - select the room type 
+2023-11-07 16:30:39 INFO  LogerClass:64 - enter the check in date
+2023-11-07 16:30:41 INFO  LogerClass:68 - enter the checkout date  
+2023-11-07 16:30:43 INFO  LogerClass:72 - select the adult per room 
+2023-11-07 16:30:45 INFO  LogerClass:76 - select the children per room
+2023-11-07 16:30:47 INFO  LogerClass:80 - click on search button 
+2023-11-07 16:30:48 INFO  LogerClass:86 - select the specific hotel 
+2023-11-07 16:30:48 INFO  LogerClass:90 - click on continue button
+2023-11-07 16:30:49 INFO  LogerClass:94 - validate the price for the hotel
+2023-11-07 16:30:50 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:39:50 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:40:00 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:40:02 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:40:02 INFO  LogerClass:50 - select the location 
+2023-11-07 16:40:04 INFO  LogerClass:56 - select the hotel 
+2023-11-07 16:40:06 INFO  LogerClass:60 - select the room type 
+2023-11-07 16:40:08 INFO  LogerClass:64 - enter the check in date
+2023-11-07 16:40:10 INFO  LogerClass:68 - enter the checkout date  
+2023-11-07 16:40:12 INFO  LogerClass:72 - select the adult per room 
+2023-11-07 16:40:14 INFO  LogerClass:76 - select the children per room
+2023-11-07 16:40:16 INFO  LogerClass:80 - click on search button 
+2023-11-07 16:40:17 INFO  LogerClass:86 - select the specific hotel 
+2023-11-07 16:40:17 INFO  LogerClass:90 - click on continue button
+2023-11-07 16:40:22 INFO  LogerClass:94 - validate the price for the hotel
+2023-11-07 16:40:22 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:43:11 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:43:16 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:43:17 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:43:17 INFO  LogerClass:47 - select the location 
+2023-11-07 16:43:19 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:43:22 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:43:23 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:43:25 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:43:27 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:43:30 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:43:31 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:43:32 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:43:32 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:43:32 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:43:36 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:43:38 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:43:38 INFO  LogerClass:47 - select the location 
+2023-11-07 16:43:40 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:43:42 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:43:44 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:43:45 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:43:47 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:43:49 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:43:51 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:43:51 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:43:52 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:43:52 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:43:54 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:44:01 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:44:01 INFO  LogerClass:47 - select the location 
+2023-11-07 16:44:04 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:44:05 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:44:07 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:44:09 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:44:11 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:44:13 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:44:14 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:44:15 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:44:15 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:44:15 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:44:19 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:44:20 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:44:20 INFO  LogerClass:47 - select the location 
+2023-11-07 16:44:22 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:44:24 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:44:26 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:44:28 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:44:30 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:44:32 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:44:34 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:44:34 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:44:34 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:44:35 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:44:37 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:44:40 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:44:40 INFO  LogerClass:47 - select the location 
+2023-11-07 16:44:42 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:44:44 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:44:46 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:44:48 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:44:49 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:44:51 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:44:53 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:44:53 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:44:54 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:44:54 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:44:58 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:44:59 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:44:59 INFO  LogerClass:47 - select the location 
+2023-11-07 16:45:01 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:45:03 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:45:05 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:45:07 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:45:08 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:45:10 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:45:12 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:45:13 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:45:13 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:45:13 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:45:17 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:45:19 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:45:19 INFO  LogerClass:47 - select the location 
+2023-11-07 16:45:19 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:45:21 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:45:23 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:45:24 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:45:26 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:45:28 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:45:30 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:45:30 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:45:31 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:45:31 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:45:35 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:45:36 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:45:36 INFO  LogerClass:47 - select the location 
+2023-11-07 16:45:36 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:45:38 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:45:40 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:45:41 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:45:43 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:45:45 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:45:47 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:45:47 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:45:48 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:45:48 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:45:52 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:45:53 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:45:53 INFO  LogerClass:47 - select the location 
+2023-11-07 16:45:55 INFO  LogerClass:53 - select the hotel 
+2023-11-07 16:45:57 INFO  LogerClass:57 - select the room type 
+2023-11-07 16:45:59 INFO  LogerClass:61 - enter the check in date
+2023-11-07 16:46:01 INFO  LogerClass:65 - enter the checkout date  
+2023-11-07 16:46:02 INFO  LogerClass:69 - select the adult per room 
+2023-11-07 16:46:04 INFO  LogerClass:73 - select the children per room
+2023-11-07 16:46:06 INFO  LogerClass:77 - click on search button 
+2023-11-07 16:46:06 INFO  LogerClass:86 - verify the error message
+2023-11-07 16:46:07 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:46:07 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:46:11 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:46:12 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:46:12 INFO  LogerClass:102 - select the location 
+2023-11-07 16:46:16 INFO  LogerClass:108 - select the hotel 
+2023-11-07 16:46:18 INFO  LogerClass:112 - select the room type 
+2023-11-07 16:46:19 INFO  LogerClass:116 - enter the check in date
+2023-11-07 16:46:21 INFO  LogerClass:120 - enter the checkout date  
+2023-11-07 16:46:23 INFO  LogerClass:124 - select the adult per room 
+2023-11-07 16:46:25 INFO  LogerClass:128 - select the children per room
+2023-11-07 16:46:27 INFO  LogerClass:132 - click on search button 
+2023-11-07 16:46:27 INFO  LogerClass:139 - validate the title
+2023-11-07 16:46:28 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-07 16:46:28 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-07 16:46:32 INFO  LogerClass:67 - login with valid crendential
+2023-11-07 16:46:33 INFO  LogerClass:80 - Click on login button 
+2023-11-07 16:46:33 INFO  LogerClass:102 - select the location 
+2023-11-07 16:46:35 INFO  LogerClass:108 - select the hotel 
+2023-11-07 16:46:37 INFO  LogerClass:112 - select the room type 
+2023-11-07 16:46:39 INFO  LogerClass:116 - enter the check in date
+2023-11-07 16:46:41 INFO  LogerClass:120 - enter the checkout date  
+2023-11-07 16:46:43 INFO  LogerClass:124 - select the adult per room 
+2023-11-07 16:46:45 INFO  LogerClass:128 - select the children per room
+2023-11-07 16:46:47 INFO  LogerClass:132 - click on search button 
+2023-11-07 16:46:47 INFO  LogerClass:139 - validate the title
+2023-11-07 16:46:48 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:02:03 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:02:10 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:02:10 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:02:11 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:02:11 INFO  LogerClass:282 - select the location 
+2023-11-08 14:02:13 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:02:15 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:02:16 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:02:18 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:02:20 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:02:21 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:02:23 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:02:24 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:02:24 INFO  LogerClass:49 - fill the neccesory details
+2023-11-08 14:02:24 INFO  LogerClass:53 - enter name
+2023-11-08 14:03:25 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:04:38 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:04:53 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:04:53 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:04:55 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:04:55 INFO  LogerClass:282 - select the location 
+2023-11-08 14:04:57 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:04:58 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:05:00 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:05:02 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:05:03 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:05:05 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:05:07 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:05:07 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:05:08 INFO  LogerClass:49 - fill the neccesory details
+2023-11-08 14:05:08 INFO  LogerClass:53 - enter name
+2023-11-08 14:06:09 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:21:57 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:22:02 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:22:02 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:22:04 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:22:04 INFO  LogerClass:282 - select the location 
+2023-11-08 14:22:05 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:22:07 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:22:09 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:22:10 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:22:12 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:22:14 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:22:15 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:22:16 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:22:16 INFO  LogerClass:50 - fill the neccesory details
+2023-11-08 14:22:16 INFO  LogerClass:54 - enter name
+2023-11-08 14:23:17 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:23:49 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:23:54 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:23:54 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:23:55 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:23:55 INFO  LogerClass:282 - select the location 
+2023-11-08 14:23:57 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:23:58 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:24:00 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:24:02 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:24:03 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:24:05 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:24:07 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:24:07 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:24:07 INFO  LogerClass:50 - fill the neccesory details
+2023-11-08 14:24:07 INFO  LogerClass:54 - enter name
+2023-11-08 14:25:09 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:26:37 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:26:42 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:26:42 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:26:43 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:26:43 INFO  LogerClass:282 - select the location 
+2023-11-08 14:26:45 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:26:46 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:26:48 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:26:50 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:26:51 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:26:53 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:26:55 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:26:56 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:26:56 INFO  LogerClass:50 - fill the neccesory details
+2023-11-08 14:26:56 INFO  LogerClass:54 - enter name
+2023-11-08 14:27:25 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:27:31 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:27:31 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:27:32 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:27:32 INFO  LogerClass:282 - select the location 
+2023-11-08 14:27:34 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:27:36 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:27:38 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:27:40 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:27:41 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:27:43 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:27:45 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:27:45 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:27:46 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:28:18 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:28:55 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:29:01 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:29:01 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:29:02 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:29:02 INFO  LogerClass:282 - select the location 
+2023-11-08 14:29:04 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:29:06 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:29:07 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:29:09 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:29:11 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:29:13 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:29:14 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:29:15 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:29:16 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:30:27 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:30:40 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:30:40 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:30:42 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:30:42 INFO  LogerClass:282 - select the location 
+2023-11-08 14:30:44 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:30:45 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:30:47 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:30:49 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:30:50 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:30:52 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:30:54 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:30:54 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:30:55 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:33:43 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:33:49 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:33:49 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:33:50 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:33:50 INFO  LogerClass:282 - select the location 
+2023-11-08 14:33:52 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:33:53 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:33:55 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:33:57 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:33:59 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:34:00 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:34:02 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:34:03 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:34:03 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:34:49 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:34:57 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:34:57 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:34:58 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:34:58 INFO  LogerClass:282 - select the location 
+2023-11-08 14:35:00 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:35:02 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:35:03 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:35:05 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:35:07 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:35:08 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:35:10 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:35:11 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:35:11 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:38:17 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:38:23 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:38:23 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:38:24 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:38:24 INFO  LogerClass:282 - select the location 
+2023-11-08 14:38:26 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:38:28 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:38:30 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:38:31 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:38:33 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:38:35 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:38:36 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:38:37 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:38:38 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:39:02 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:39:39 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:39:39 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:39:44 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:39:50 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:39:50 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:39:51 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:39:51 INFO  LogerClass:282 - select the location 
+2023-11-08 14:39:53 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:39:55 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:39:57 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:39:58 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:40:00 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:40:02 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:40:04 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:40:04 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:40:05 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:40:05 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:40:55 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:41:01 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:41:01 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:41:02 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:41:02 INFO  LogerClass:282 - select the location 
+2023-11-08 14:41:04 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:41:06 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:41:07 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:41:09 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:41:11 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:41:13 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:41:14 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:41:15 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:41:15 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:42:42 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:42:47 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:42:47 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:42:49 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:42:49 INFO  LogerClass:282 - select the location 
+2023-11-08 14:42:51 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:42:52 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:42:54 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:42:56 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:42:57 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:42:59 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:43:01 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:43:02 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:43:02 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:43:55 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:44:00 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:44:00 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:44:01 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:44:01 INFO  LogerClass:282 - select the location 
+2023-11-08 14:44:03 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:44:05 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:44:06 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:44:08 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:44:10 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:44:12 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:44:13 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:44:14 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:44:15 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:44:56 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:45:01 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:45:02 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:45:03 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:45:03 INFO  LogerClass:282 - select the location 
+2023-11-08 14:45:05 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:45:06 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:45:08 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:45:10 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:45:12 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:45:13 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:45:15 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:45:16 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:45:17 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:45:43 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:45:49 INFO  LogerClass:36 - log to search hotel first
+2023-11-08 14:45:49 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:45:50 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:45:50 INFO  LogerClass:282 - select the location 
+2023-11-08 14:45:52 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:45:53 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:45:55 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:45:57 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:45:59 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:46:00 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:46:02 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:46:03 INFO  LogerClass:44 - select the hotel button
+2023-11-08 14:46:04 INFO  LogerClass:50 - fill the neccesory details
+2023-11-08 14:46:04 INFO  LogerClass:54 - enter name
+2023-11-08 14:46:04 INFO  LogerClass:59 - enter last name  
+2023-11-08 14:46:04 INFO  LogerClass:64 - enter address
+2023-11-08 14:46:04 INFO  LogerClass:67 - enter credit cards 
+2023-11-08 14:46:11 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:55:33 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:55:38 INFO  LogerClass:39 - log to search hotel first
+2023-11-08 14:55:38 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:55:39 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:55:39 INFO  LogerClass:282 - select the location 
+2023-11-08 14:55:41 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:55:43 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:55:45 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:55:46 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:55:48 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:55:50 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:55:52 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:55:52 INFO  LogerClass:47 - select the hotel button
+2023-11-08 14:55:53 INFO  LogerClass:53 - fill the neccesory details
+2023-11-08 14:55:53 INFO  LogerClass:57 - enter name
+2023-11-08 14:55:53 INFO  LogerClass:61 - enter last name  
+2023-11-08 14:55:53 INFO  LogerClass:66 - enter address
+2023-11-08 14:55:53 INFO  LogerClass:69 - enter credit cards 
+2023-11-08 14:56:00 INFO  LogerClass:78 - validate the order number  
+2023-11-08 14:56:06 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 14:57:17 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 14:57:22 INFO  LogerClass:39 - log to search hotel first
+2023-11-08 14:57:22 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 14:57:24 INFO  LogerClass:80 - Click on login button 
+2023-11-08 14:57:24 INFO  LogerClass:282 - select the location 
+2023-11-08 14:57:25 INFO  LogerClass:288 - select the hotel 
+2023-11-08 14:57:27 INFO  LogerClass:292 - select the room type 
+2023-11-08 14:57:29 INFO  LogerClass:296 - enter the check in date
+2023-11-08 14:57:30 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 14:57:32 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 14:57:34 INFO  LogerClass:308 - select the children per room
+2023-11-08 14:57:35 INFO  LogerClass:312 - click on search button 
+2023-11-08 14:57:36 INFO  LogerClass:47 - select the hotel button
+2023-11-08 14:57:37 INFO  LogerClass:53 - fill the neccesory details
+2023-11-08 14:57:37 INFO  LogerClass:57 - enter name
+2023-11-08 14:57:38 INFO  LogerClass:61 - enter last name  
+2023-11-08 14:57:38 INFO  LogerClass:66 - enter address
+2023-11-08 14:57:38 INFO  LogerClass:69 - enter credit cards 
+2023-11-08 14:57:44 INFO  LogerClass:78 - validate the order number  
+2023-11-08 14:57:50 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 16:20:17 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 16:20:23 INFO  LogerClass:41 - log to search hotel first
+2023-11-08 16:20:24 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 16:20:25 INFO  LogerClass:80 - Click on login button 
+2023-11-08 16:20:25 INFO  LogerClass:282 - select the location 
+2023-11-08 16:20:27 INFO  LogerClass:288 - select the hotel 
+2023-11-08 16:20:29 INFO  LogerClass:292 - select the room type 
+2023-11-08 16:20:31 INFO  LogerClass:296 - enter the check in date
+2023-11-08 16:20:33 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 16:20:35 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 16:20:36 INFO  LogerClass:308 - select the children per room
+2023-11-08 16:20:38 INFO  LogerClass:312 - click on search button 
+2023-11-08 16:20:39 INFO  LogerClass:49 - select the hotel button
+2023-11-08 16:20:40 INFO  LogerClass:55 - fill the neccesory details
+2023-11-08 16:20:40 INFO  LogerClass:59 - enter name
+2023-11-08 16:20:40 INFO  LogerClass:63 - enter last name  
+2023-11-08 16:20:40 INFO  LogerClass:68 - enter address
+2023-11-08 16:20:40 INFO  LogerClass:71 - enter credit cards 
+2023-11-08 16:20:47 INFO  LogerClass:80 - click on my iternary button
+2023-11-08 16:20:58 INFO  LogerClass:85 - validate the order id 
+2023-11-08 16:21:59 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 16:24:49 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 16:24:56 INFO  LogerClass:41 - log to search hotel first
+2023-11-08 16:24:56 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 16:24:58 INFO  LogerClass:80 - Click on login button 
+2023-11-08 16:24:58 INFO  LogerClass:282 - select the location 
+2023-11-08 16:25:00 INFO  LogerClass:288 - select the hotel 
+2023-11-08 16:25:02 INFO  LogerClass:292 - select the room type 
+2023-11-08 16:25:03 INFO  LogerClass:296 - enter the check in date
+2023-11-08 16:25:05 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 16:25:07 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 16:25:09 INFO  LogerClass:308 - select the children per room
+2023-11-08 16:25:10 INFO  LogerClass:312 - click on search button 
+2023-11-08 16:25:11 INFO  LogerClass:49 - select the hotel button
+2023-11-08 16:25:12 INFO  LogerClass:55 - fill the neccesory details
+2023-11-08 16:25:12 INFO  LogerClass:59 - enter name
+2023-11-08 16:25:13 INFO  LogerClass:63 - enter last name  
+2023-11-08 16:25:13 INFO  LogerClass:68 - enter address
+2023-11-08 16:25:13 INFO  LogerClass:71 - enter credit cards 
+2023-11-08 16:25:20 INFO  LogerClass:80 - click on my iternary button
+2023-11-08 16:25:26 INFO  LogerClass:85 - validate the order id 
+2023-11-08 16:26:28 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 16:31:28 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 16:31:35 INFO  LogerClass:39 - log to search hotel first
+2023-11-08 16:31:35 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 16:31:36 INFO  LogerClass:80 - Click on login button 
+2023-11-08 16:31:36 INFO  LogerClass:282 - select the location 
+2023-11-08 16:31:38 INFO  LogerClass:288 - select the hotel 
+2023-11-08 16:31:40 INFO  LogerClass:292 - select the room type 
+2023-11-08 16:31:42 INFO  LogerClass:296 - enter the check in date
+2023-11-08 16:31:44 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 16:31:45 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 16:31:47 INFO  LogerClass:308 - select the children per room
+2023-11-08 16:31:49 INFO  LogerClass:312 - click on search button 
+2023-11-08 16:31:50 INFO  LogerClass:47 - select the hotel button
+2023-11-08 16:31:51 INFO  LogerClass:53 - fill the neccesory details
+2023-11-08 16:31:51 INFO  LogerClass:57 - enter name
+2023-11-08 16:31:51 INFO  LogerClass:61 - enter last name  
+2023-11-08 16:31:51 INFO  LogerClass:66 - enter address
+2023-11-08 16:31:51 INFO  LogerClass:69 - enter credit cards 
+2023-11-08 16:31:53 INFO  LogerClass:46 - *******  we are ready to lounch the Chrome browser  ******
+2023-11-08 16:31:58 INFO  LogerClass:78 - validate the order number  
+2023-11-08 16:32:01 INFO  LogerClass:41 - log to search hotel first
+2023-11-08 16:32:01 INFO  LogerClass:67 - login with valid crendential
+2023-11-08 16:32:03 INFO  LogerClass:80 - Click on login button 
+2023-11-08 16:32:03 INFO  LogerClass:282 - select the location 
+2023-11-08 16:32:04 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********
+2023-11-08 16:32:05 INFO  LogerClass:288 - select the hotel 
+2023-11-08 16:32:07 INFO  LogerClass:292 - select the room type 
+2023-11-08 16:32:09 INFO  LogerClass:296 - enter the check in date
+2023-11-08 16:32:10 INFO  LogerClass:300 - enter the checkout date  
+2023-11-08 16:32:12 INFO  LogerClass:304 - select the adult per room 
+2023-11-08 16:32:14 INFO  LogerClass:308 - select the children per room
+2023-11-08 16:32:16 INFO  LogerClass:312 - click on search button 
+2023-11-08 16:32:17 INFO  LogerClass:49 - select the hotel button
+2023-11-08 16:32:18 INFO  LogerClass:55 - fill the neccesory details
+2023-11-08 16:32:18 INFO  LogerClass:59 - enter name
+2023-11-08 16:32:18 INFO  LogerClass:63 - enter last name  
+2023-11-08 16:32:18 INFO  LogerClass:68 - enter address
+2023-11-08 16:32:18 INFO  LogerClass:71 - enter credit cards 
+2023-11-08 16:32:25 INFO  LogerClass:80 - click on my iternary button
+2023-11-08 16:32:33 INFO  LogerClass:85 - validate the order id 
+2023-11-08 16:33:55 INFO  LogerClass:75 - ********* we are ready to closed the Browser ***********

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION">
+      <class name="Demo_Sep_TestCases.BOOK_HOTEL_Booked_Itinerary">
         <methods>
-          <include name="VerifyHoomepageCurrentUrl"/>
           <include name="lounching"/>
           <include name="tearDown"/>
+          <include name="validateBookHotel" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Demo_Sep_TestCases.HOMEPAGE_CURRENTURLVERIFICATION -->
+      </class> <!-- Demo_Sep_TestCases.BOOK_HOTEL_Booked_Itinerary -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

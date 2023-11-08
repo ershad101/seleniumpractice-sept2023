@@ -58,21 +58,22 @@ public class selectHotel {
 	@FindBy(xpath = "//input[@type='radio']")
 	private List<WebElement> RadioButtonList;
 
+	@FindBy(xpath = "//input[@name='radiobutton_0']")
+	private WebElement ChooseHotelRedioButton;
+
+	@FindBy(xpath = "//input[@id='hotel_name_0']")
+	private WebElement hotelName;
+
 	public void selectHotelButton(String value) {
 
-		for (WebElement elements : RadioButtonList) {
+		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 
-			String extValue = elements.getAttribute("value");
+		String hotelNameActual = wait.until(ExpectedConditions.visibilityOf(hotelName)).getAttribute("value");
 
-			System.out.println();
-			if (extValue.equals(value)) {
-				wait = new WebDriverWait(driver, Duration.ofSeconds(25));
+		System.out.println("hotel name is  " + hotelNameActual);
 
-				wait.until(ExpectedConditions.elementToBeClickable(elements)).click();
-
-				break;
-
-			}
+		if (hotelNameActual.equals(value)) {
+			wait.until(ExpectedConditions.visibilityOf(ChooseHotelRedioButton)).click();
 		}
 
 	}

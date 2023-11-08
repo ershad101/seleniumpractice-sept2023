@@ -26,7 +26,7 @@ public class LOGOUT_VALIDATECREDENTIAL extends BaseClass {
 
 	public DashBorad dashBoard;
 
-	@Test
+	@Test(groups = "smoke")
 	public void validateLogoutFunctiionality() throws FileNotFoundException {
 
 		log = LogerClass.getlogger();
