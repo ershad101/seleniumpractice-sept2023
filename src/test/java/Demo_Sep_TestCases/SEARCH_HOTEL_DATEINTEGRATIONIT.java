@@ -13,15 +13,15 @@ import ExcellUtilities.readExcel;
 import Loggings.LogerClass;
 import POMfile.HomePage;
 import POMfile.loginPage;
+import POMfile.searchHotelPage;
 import POMfile.selectHotel;
-import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
 public class SEARCH_HOTEL_DATEINTEGRATIONIT extends BaseClass {
 
 	public selectHotel hotelselect;
 
-	public serachHotelPage searchHotel;
+	public searchHotelPage searchHotel;
 
 	public Logger log;
 
@@ -50,7 +50,7 @@ public class SEARCH_HOTEL_DATEINTEGRATIONIT extends BaseClass {
 
 		log.info("fill the neccessory data to search hotel ");
 
-		searchHotel = new serachHotelPage(driver);
+		searchHotel = new searchHotelPage(driver);
 
 		searchHotel.hotelDetailsSubmission(location, hotel, roomType, numberOfRoom, checkinDate, checkoutdate,
 				adultoption, childrenO);

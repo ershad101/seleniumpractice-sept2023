@@ -15,8 +15,8 @@ import Loggings.LogerClass;
 import POMfile.BookHotelPage;
 import POMfile.Booked_Itinerary_Page;
 import POMfile.BookingConfirmation;
+import POMfile.searchHotelPage;
 import POMfile.selectHotel;
-import POMfile.serachHotelPage;
 
 public class BOOK_HOTEL_Booked_Itinerary extends BaseClass {
 	public Logger log;
@@ -24,8 +24,8 @@ public class BOOK_HOTEL_Booked_Itinerary extends BaseClass {
 	public selectHotel selectHotel;
 
 	public BookHotelPage bookHotel;
+public searchHotelPage searchhotel;
 
-	public serachHotelPage searchHotelPage;
 
 	public BookingConfirmation confirmation;
 	public Booked_Itinerary_Page bookIternerary;
@@ -39,9 +39,9 @@ public class BOOK_HOTEL_Booked_Itinerary extends BaseClass {
 		log = LogerClass.getlogger();
 
 		log.info("log to search hotel first");
-		searchHotelPage = new serachHotelPage(driver);
+		searchhotel = new searchHotelPage(driver);
 
-		searchHotelPage.hotelDetailsSubmission(location, hotel, roomType, numberOfRoom, checkinDate, checkoutdate,
+		searchhotel.hotelDetailsSubmission(location, hotel, roomType, numberOfRoom, checkinDate, checkoutdate,
 				adultoption, childrenO);
 
 		selectHotel = new selectHotel(driver);

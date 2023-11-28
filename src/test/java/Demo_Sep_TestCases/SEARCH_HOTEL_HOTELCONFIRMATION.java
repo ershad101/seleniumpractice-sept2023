@@ -13,8 +13,8 @@ import ExcellUtilities.readExcel;
 import Loggings.LogerClass;
 import POMfile.HomePage;
 import POMfile.loginPage;
+import POMfile.searchHotelPage;
 import POMfile.selectHotel;
-import POMfile.serachHotelPage;
 import ReadProperties.PageProperty;
 
 public class SEARCH_HOTEL_HOTELCONFIRMATION extends BaseClass {
@@ -27,7 +27,7 @@ public class SEARCH_HOTEL_HOTELCONFIRMATION extends BaseClass {
 
 	public PageProperty pro;
 
-	public serachHotelPage searchHotel;
+	public searchHotelPage searchHotel;
 
 	public loginPage login;
 	
@@ -46,7 +46,7 @@ public class SEARCH_HOTEL_HOTELCONFIRMATION extends BaseClass {
 
 		log.info("select the location ");
 
-		searchHotel = new serachHotelPage(driver);
+		searchHotel = new searchHotelPage(driver);
 
 		searchHotel.locationSelecation(location);
 
@@ -101,7 +101,7 @@ public class SEARCH_HOTEL_HOTELCONFIRMATION extends BaseClass {
 
 		log.info("select the location ");
 
-		searchHotel = new serachHotelPage(driver);
+		searchHotel = new searchHotelPage(driver);
 
 		searchHotel.locationSelecation(location);
 
