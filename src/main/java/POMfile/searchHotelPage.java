@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import Loggings.LogerClass;
 import ReadProperties.PageProperty;
 
-public class serachHotelPage {
+public class searchHotelPage {
 
 	public WebDriver driver;
 
@@ -33,13 +33,13 @@ public class serachHotelPage {
 
 	public PageProperty pro;
 
-	public serachHotelPage searchHotel;
+	public searchHotelPage searchHotel;
 
 	public loginPage login;
 	
 	public selectHotel selectHotel;
 
-	public serachHotelPage(WebDriver driver) {
+	public searchHotelPage(WebDriver driver) {
 
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -281,7 +281,7 @@ public class serachHotelPage {
 
 		log.info("select the location ");
 
-		searchHotel = new serachHotelPage(driver);
+		searchHotel = new searchHotelPage(driver);
 
 		searchHotel.locationSelecation(location);
 

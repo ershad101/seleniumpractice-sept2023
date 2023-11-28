@@ -13,7 +13,6 @@ import Loggings.LogerClass;
 import POMfile.BookHotelPage;
 import POMfile.BookingConfirmation;
 import POMfile.selectHotel;
-import POMfile.serachHotelPage;
 
 public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 
@@ -23,7 +22,7 @@ public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 
 	public BookHotelPage bookHotel;
 
-	public serachHotelPage searchHotelPage;
+	public POMfile.searchHotelPage searchHotelPage;
 	
 	public BookingConfirmation confirmation;
 	
@@ -37,7 +36,8 @@ public class BOOK_HOTEL_SUCCESSFUL_BOOKING extends BaseClass {
 		log = LogerClass.getlogger();
 
 		log.info("log to search hotel first");
-		searchHotelPage = new serachHotelPage(driver);
+		searchHotelPage = new POMfile.searchHotelPage(driver);
+		
 
 		searchHotelPage.hotelDetailsSubmission(location, hotel, roomType, numberOfRoom, checkinDate, checkoutdate,
 				adultoption, childrenO);
